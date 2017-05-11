@@ -1,3 +1,58 @@
+* {
+  border: solid 1px red;    /*TO BE REMOVED ONCE FINISHED*/
+  text-align: center;
+}
+
 body {
-  
+  padding: 0;
+  margin: 0;
+  background-color: darkgrey;
+  /** place image that reflects the weather **/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+/*WEATHER WRAPPER*/
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+  width: 75%;
+  height: 50%;
+  background-color: black;
+
+
+  border-radius: 10px;
+
+}
+
+#weather-icon-wrapper,
+#temp-wrapper,
+#location,
+#weather-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 45%;
+}
+
+#icons-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#temp-switch,
+#text-footer,
+#social-links {
+  width: 90px;
 }
