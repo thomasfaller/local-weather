@@ -22,7 +22,7 @@ $( document ).ready(function() {               // LOADS THE FOLLOWING CODE WHEN 
           // DISPLAYING THE INFO IN THE WEB APP
 
           $locationWrapper.html("<h1>" + $city + ", " + $country + "</h1>");
-          $weatherIconWrapper.html("<img src=\"http://openweathermap.org/img/w/" + $weatherIcon + ".png\" alt=\"weather icon\">");
+          $weatherIconWrapper.html("<img style=\"width: 120px;\" src=\"http://openweathermap.org/img/w/" + $weatherIcon + ".png\" alt=\"weather icon\">");
           $weatherStatusWrapper.html("<h1>" + $weatherDesc + "</h1>");
           $tempWrapper.html("<h1>" + $tempC.toFixed(0) + " °C</h1>");     // toFixed(0) to make sure the temp is a whole number
         }});

@@ -1,4 +1,5 @@
 * {
+  font-family: 'Lato', sans-serif;
   /*border: solid 1px red;    /*TO BE REMOVED ONCE FINISHED*/
   text-align: center;
 }
@@ -6,7 +7,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: darkgrey;
+  background-color: rgb(102,200,143);
   /** place image that reflects the weather **/
   display: flex;
   justify-content: center;
@@ -26,12 +27,12 @@ body {
   align-content: center;
   color: white;
   width: 75%;
-  height: 50%;
+  height: 75%;
   background-color: black;
 
 
   border-radius: 10px;
-
+  box-shadow: 0 45px 90px 5px black;
 }
 
 #weather-icon-wrapper,
@@ -55,4 +56,8 @@ body {
 #text-footer,
 #social-links {
   width: 90px;
+}
+
+h1 {
+  font-size: 4rem;
 }
