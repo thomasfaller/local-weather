@@ -11,7 +11,7 @@ $( document ).ready(function() {               // LOADS THE FOLLOWING CODE WHEN 
     var $lat = position.coords.latitude;
     var $long = position.coords.longitude;
     console.log(position.coords.latitude);
-    $.ajax({url: "http://api.openweathermap.org/data/2.5/weather?lat=" + $lat + "&lon=" + $long + "&APPID=bae4b37551ad15c5be94bb6d7178601d", success: function(result){   // retrieve the JSON
+    $.ajax({url: "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat=" + $lat + "&lon=" + $long + "&APPID=bae4b37551ad15c5be94bb6d7178601d", success: function(result){   // retrieve the JSON
           var $city = result.name;                                // City
           var $country = result.sys.country;                      // Country
           var $weatherDesc = result.weather[0].description;       // Description of Weather
