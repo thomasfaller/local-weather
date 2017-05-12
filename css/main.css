@@ -7,7 +7,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(102,200,143);
+  background-color: rgb(38,38,38);
   /** place image that reflects the weather **/
   display: flex;
   justify-content: center;
@@ -15,7 +15,6 @@ body {
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
-  /*background-image: url("../Files/sky-rainy-bg.jpeg");background-position: center;background-size: cover;*/
 }
 
 /*WEATHER WRAPPER*/
@@ -29,9 +28,8 @@ body {
   color: white;
   width: 75%;
   height: 75%;
-  background-color: black;
-
-
+  opacity: 0.6;
+  background-image: url("../Files/sky-rainy-bg.jpeg");background-position: center;background-size: cover;
   border-radius: 10px;
   box-shadow: 0 45px 90px 5px black;
 }
@@ -45,6 +43,7 @@ body {
   align-items: center;
   width: 45%;
   height: 45%;
+  z-index: 100;
 }
 
 #icons-wrapper {
