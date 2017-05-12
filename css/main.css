@@ -28,8 +28,7 @@ body {
   color: white;
   width: 75%;
   height: 75%;
-  opacity: 0.6;
-  background-image: url("../Files/sky-rainy-bg.jpeg");background-position: center;background-size: cover;
+  background-image: url("../Files/sky-Rain-bg.jpeg");background-position: center;background-size: cover;
   border-radius: 10px;
   box-shadow: 0 45px 90px 5px black;
 }
@@ -43,7 +42,6 @@ body {
   align-items: center;
   width: 45%;
   height: 45%;
-  z-index: 100;
 }
 
 #icons-wrapper {
