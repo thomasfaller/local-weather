@@ -19,6 +19,16 @@ $( document ).ready(function() {               // LOADS THE FOLLOWING CODE WHEN 
           var $tempC = result.main.temp - 273.15;                 // Temp in Celsius
           var $tempF = result.main.temp * (9/5) - 459.67;         // Temp in Farenheit
 
+          if (result.weather[0].main === "Rain") {
+            $('body').css("background-image: url(\"../Files/sky-rainy-bg.jpeg\");background-position:center;background-size: cover;");
+          // } else if (result.weather[0].main == "clouds") {
+          //
+          // } else if (result.weather[0].main == "sunny") {
+          //
+          // } // weather background images
+
+
+
           // DISPLAYING THE INFO IN THE WEB APP
 
           $locationWrapper.html("<h1>" + $city + ", " + $country + "</h1>");
