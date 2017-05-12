@@ -37,11 +37,17 @@ body {
 #temp-wrapper,
 #location,
 #weather-status {
+  font-weight: 100;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 45%;
   height: 45%;
+  text-shadow: 0 0 10px white;
+}
+
+#temp-wrapper h1 {
+  font-size: 7rem;
 }
 
 #icons-wrapper {
