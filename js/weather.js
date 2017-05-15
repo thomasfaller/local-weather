@@ -45,8 +45,6 @@ $.ajax({
           //
           // } // weather background images
 
-          var $weatherImage = "../Files/sky-" + result.weather[0].main + "-bg.jepg";
-          console.log($weatherImage);
 
           // DISPLAYING THE INFO IN THE WEB APP
 
